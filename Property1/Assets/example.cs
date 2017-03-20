@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class example : MonoBehaviour {
 
+    [SpriteShow(45)]
+    public Sprite mySprite;
 	// Use this for initialization
 	void Start () {
 		
